@@ -1,1 +1,3 @@
 ##This is a markdown file##
+string scenario1Page = String.Format("scenario1-{0}.aspx", DateTime.Now.Ticks);
+string scenario1PageUrl = csomService.AddWikiPage("Site Pages", scenario1Page);
